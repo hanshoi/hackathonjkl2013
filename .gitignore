@@ -7,6 +7,7 @@ Temp/*
 Library/*
 Build/*
 __MACOSX/*
+KinectToUnity/Assets/Zigfu
 #Un-ignore these specific files
 !Library/*.asset
 !Library/AssetImportState
