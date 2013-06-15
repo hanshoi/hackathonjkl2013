@@ -6,6 +6,7 @@
 Temp/*
 Library/*
 Build/*
+__MACOSX/*
 #Un-ignore these specific files
 !Library/*.asset
 !Library/AssetImportState
