@@ -1,5 +1,5 @@
 #gitignore file originally used in https://gist.github.com/Pfhreak/2947096
-#un-ignore the metadata folder and some specific files
+#un-ignore some specific files
 #Use at your own risk, this may totally destroy your project, but it worked for us
  
 #NOTE: this will cause your collaborators to re-import assets periodically
