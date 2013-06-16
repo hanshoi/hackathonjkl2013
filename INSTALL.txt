@@ -1,3 +1,17 @@
+####################
+#   Requirements   #
+####################
+Hardware:
+   - Oculus Rift
+   - Kinect
+Software:
+   - Kinect SDK or OpenNI
+   - Unity 3D Pro
+
+
+####################
+#   Dependencies   #
+####################
 This project has following 3rd party dependencies.
   - Zigfu (http://zigfu.com/en/store/download/zdk-for-unity3d-trial/)
   - Oculus Rift Unity integration (oculusvr.com)
@@ -9,4 +23,20 @@ Installing dependencies:
 	3. Assets -> Import Package -> Custom Package
 	4. Choose package unity file of dependency
 	5. Import all
+
+####################
+#       Run        #
+####################
+If all requirements are fulfilled and 3rd party packages installed to your unity. You are good to go.
+
+
+####################
+#    Problems      #
+####################
+When combining Kinect and Oculus Rift into one package there might be a scenario where kinect is not recognized.
+Even though it's properly installed with SDK. In this case you might need to do following.
+	1. In project choose "Zigfu" gameobject
+	2. Look at the "Zig" script in the gameobject
+	3. Choose from "Input" variable your currently installed SDK
+		- Kinect SDK, OpenNI, OpenNI2
 
