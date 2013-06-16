@@ -1,0 +1,12 @@
+This project has following 3rd party dependencies.
+  - Zigfu (http://zigfu.com/en/store/download/zdk-for-unity3d-trial/)
+  - Oculus Rift Unity integration (oculusvr.com)
+
+
+Installing dependencies:
+	1. Download package
+	2. Open our unity project
+	3. Assets -> Import Package -> Custom Package
+	4. Choose package unity file of dependency
+	5. Import all
+
