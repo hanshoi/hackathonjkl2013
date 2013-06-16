@@ -6,11 +6,12 @@
 Temp/*
 Library/*
 Assets/Tuscany
-Assets/Tuscany.meta
+#Assets/Tuscany.meta
 Assets/OVR
-Assets/OVR.meta
+#Assets/OVR.meta
 Assets/Plugins
-Assets/Plugins.meta
+#Assets/Plugins.meta
+Assets/
 Build/*
 __MACOSX/*
 Assets/Zigfu
