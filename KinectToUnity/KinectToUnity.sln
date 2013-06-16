@@ -9,6 +9,8 @@ Project("{6B0BD07A-D0FA-DF29-95DD-54CD15BC4C7A}") = "KinectToUnity", "Assembly-C
 EndProject
 Project("{6B0BD07A-D0FA-DF29-95DD-54CD15BC4C7A}") = "KinectToUnity", "Assembly-UnityScript-firstpass.unityproj", "{816AEAD1-3CDC-6D55-A5EC-BD62289C2717}"
 EndProject
+Project("{6B0BD07A-D0FA-DF29-95DD-54CD15BC4C7A}") = "KinectToUnity", "Assembly-UnityScript.unityproj", "{F850589C-29A0-4A74-940A-4C73E294CA31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,11 +33,15 @@ Global
 		{816AEAD1-3CDC-6D55-A5EC-BD62289C2717}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{816AEAD1-3CDC-6D55-A5EC-BD62289C2717}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{816AEAD1-3CDC-6D55-A5EC-BD62289C2717}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F850589C-29A0-4A74-940A-4C73E294CA31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F850589C-29A0-4A74-940A-4C73E294CA31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F850589C-29A0-4A74-940A-4C73E294CA31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F850589C-29A0-4A74-940A-4C73E294CA31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-				GlobalSection(MonoDevelopProperties) = preSolution
+												GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

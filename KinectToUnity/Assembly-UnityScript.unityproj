@@ -5,11 +5,11 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{D7113477-18C4-77D1-467A-4DFDF0C0DD10}</ProjectGuid>
+	<ProjectGuid>{F850589C-29A0-4A74-940A-4C73E294CA31}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
 	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,61 +44,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Kinect\DepthWrapper.cs" />
-     <Compile Include="Assets\Kinect\DeviceOrEmulator.cs" />
-     <Compile Include="Assets\Kinect\DisplayColor.cs" />
-     <Compile Include="Assets\Kinect\DisplayDepth.cs" />
-     <Compile Include="Assets\Kinect\KinectEmulator.cs" />
-     <Compile Include="Assets\Kinect\KinectInterop.cs" />
-     <Compile Include="Assets\Kinect\KinectModelControllerV2.cs" />
-     <Compile Include="Assets\Kinect\KinectPointController.cs" />
-     <Compile Include="Assets\Kinect\KinectRecorder.cs" />
-     <Compile Include="Assets\Kinect\KinectSensor.cs" />
-     <Compile Include="Assets\Kinect\SkeletonWrapper.cs" />
-     <Compile Include="Assets\OVR\OVRImageEffects\OVRImageEffectBase.cs" />
-     <Compile Include="Assets\OVR\OVRImageEffects\OVRLensCorrection.cs" />
-     <Compile Include="Assets\OVR\Scripts\OVRCamera.cs" />
-     <Compile Include="Assets\OVR\Scripts\OVRCameraController.cs" />
-     <Compile Include="Assets\OVR\Scripts\OVRComponent.cs" />
-     <Compile Include="Assets\OVR\Scripts\OVRCrosshair.cs" />
-     <Compile Include="Assets\OVR\Scripts\OVRDevice.cs" />
-     <Compile Include="Assets\OVR\Scripts\OVRGUI.cs" />
-     <Compile Include="Assets\OVR\Scripts\OVRGamepadController.cs" />
-     <Compile Include="Assets\OVR\Scripts\OVRMagCalibration.cs" />
-     <Compile Include="Assets\OVR\Scripts\OVRMainMenu.cs" />
-     <Compile Include="Assets\OVR\Scripts\OVRMessenger.cs" />
-     <Compile Include="Assets\OVR\Scripts\OVRPlayerController.cs" />
-     <Compile Include="Assets\OVR\Scripts\OVRPresetManager.cs" />
-     <Compile Include="Assets\OVR\Scripts\OVRUtils.cs" />
-     <Compile Include="Assets\Tuscany\Water (Basic)\Sources\Scripts\WaterSimple.cs" />
-     <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\ExitOnEscape.cs" />
-     <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\HSBColor.cs" />
-     <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\MenuController.cs" />
-     <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\RandomHSV.cs" />
-     <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\animatedTexture.cs" />
-     <Compile Include="Assets\ZigFu\Scripts\UISessionControls\ZigFader.cs" />
-     <Compile Include="Assets\ZigFu\Scripts\UISessionControls\ZigFollowHandPoint.cs" />
-     <Compile Include="Assets\ZigFu\Scripts\UISessionControls\ZigPushDetector.cs" />
-     <Compile Include="Assets\ZigFu\Scripts\UISessionControls\ZigSteadyDetector.cs" />
-     <Compile Include="Assets\ZigFu\Scripts\UISessionControls\ZigSwipeDetector.cs" />
-     <Compile Include="Assets\ZigFu\Scripts\UISessionControls\ZigWaveDetector.cs" />
-     <Compile Include="Assets\ZigFu\Scripts\UserControls\ZigHandRaiseDetector.cs" />
-     <Compile Include="Assets\ZigFu\Scripts\UserControls\ZigHandSessionDetector.cs" />
-     <Compile Include="Assets\ZigFu\Scripts\UserControls\ZigMapJointToSession.cs" />
-     <Compile Include="Assets\ZigFu\Scripts\UserControls\ZigSkeleton.cs" />
-     <Compile Include="Assets\ZigFu\Scripts\UserEngagers\ZigEngageAllUsers.cs" />
-     <Compile Include="Assets\ZigFu\Scripts\UserEngagers\ZigEngageSingleSession.cs" />
-     <Compile Include="Assets\ZigFu\Scripts\UserEngagers\ZigEngageSingleUser.cs" />
-     <Compile Include="Assets\ZigFu\Scripts\UserEngagers\ZigEngageSplitScreen.cs" />
-     <Compile Include="Assets\ZigFu\Scripts\Viewers\ZigDepthViewer.cs" />
-     <Compile Include="Assets\ZigFu\Scripts\Viewers\ZigDepthmapToParticles.cs" />
-     <Compile Include="Assets\ZigFu\Scripts\Viewers\ZigImageViewer.cs" />
-     <Compile Include="Assets\ZigFu\Scripts\Viewers\ZigUserViewer.cs" />
-     <Compile Include="Assets\ZigFu\Scripts\Viewers\ZigUsersRadar.cs" />
-     <Compile Include="Assets\ZigFu\Scripts\Zig.cs" />
-     <Compile Include="Assets\ZigFu\Scripts\_Internal\Matrix3.cs" />
-     <Compile Include="Assets\ZigFu\Scripts\_Internal\TimedBuffer.cs" />
-     <Compile Include="Assets\ZigFu\Scripts\_Internal\kinectSpecific.cs" />
+     <Compile Include="Assets\Tuscany\Particles\Scripts\Light_Flicker.js" />
+     <Compile Include="Assets\Tuscany\ScrollUVs.js" />
      <None Include="Assets\Tuscany\Models\Materials\Vertex color unlit 3.shader" />
      <None Include="Assets\Tuscany\Models\Materials\Vertex color unlit 1.shader" />
      <None Include="Assets\Tuscany\Particles\Shaders\Particle Alpha Blend_IgnoreFog.shader" />

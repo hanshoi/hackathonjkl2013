@@ -45,9 +45,34 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Editor\BuildScenes.cs" />
+     <Compile Include="Assets\OVR\Editor\OVRBuild.cs" />
+     <Compile Include="Assets\OVR\Editor\OVRCameraControllerEditor.cs" />
+     <Compile Include="Assets\OVR\Editor\OVRDeviceEditor.cs" />
+     <Compile Include="Assets\OVR\Editor\OVREditorGUIUtility.cs" />
+     <Compile Include="Assets\OVR\Editor\OVRPlayerControllerEditor.cs" />
+     <Compile Include="Assets\OVR\Editor\OVRPrefabs.cs" />
+     <None Include="Assets\Tuscany\Models\Materials\Vertex color unlit 3.shader" />
+     <None Include="Assets\Tuscany\Models\Materials\Vertex color unlit 1.shader" />
+     <None Include="Assets\Tuscany\Particles\Shaders\Particle Alpha Blend_IgnoreFog.shader" />
+     <None Include="Assets\Tuscany\Models\Materials\Vertex color unlit 5.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Tuscany\Models\Materials\Vertex color unlit 6.shader" />
+     <None Include="Assets\Tuscany\Models\Materials\DoubleSided.shader" />
+     <None Include="Assets\Tuscany\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\OVR\OVRImageEffects\OVRLensCorrection_CA.shader" />
+     <None Include="Assets\Tuscany\Models\Materials\Vertex color unlit 4.shader" />
+     <None Include="Assets\Tuscany\Particles\Shaders\AddSmooth_Layer.shader" />
+     <None Include="Assets\Tuscany\Models\Materials\Vertex color unlit 8.shader" />
+     <None Include="Assets\OVR\OVRImageEffects\OVRLensCorrection.shader" />
+     <None Include="Assets\OVR\Shaders\OVRGUIShader.shader" />
+     <None Include="Assets\Tuscany\Models\Materials\Vertex color unlit 2.shader" />
+     <None Include="Assets\Tuscany\Models\Materials\Vertex color unlit 7.shader" />
+     <None Include="Assets\Tuscany\Particles\Shaders\Add_Layer.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="OpenNI.Net">
  <HintPath>Assets\ZigFu\Scripts\_Internal\OpenNI.Net.dll</HintPath>

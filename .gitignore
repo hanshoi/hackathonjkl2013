@@ -3,8 +3,15 @@
 #Use at your own risk, this may totally destroy your project, but it worked for us
  
 #NOTE: this will cause your collaborators to re-import assets periodically
-Temp/*
+KinectToUnity/Temp/*
 KinectToUnity/Library/*
+KinectToUnity/Assets/Zigfu.meta
+KinectToUnity/Assets/Tuscany
+KinectToUnity/Assets/Tuscany.meta
+KinectToUnity/Assets/OVR
+KinectToUnity/Assets/OVR.meta
+KinectToUnity/Assets/Plugins
+KinectToUnity/Assets/Plugins.meta
 Build/*
 __MACOSX/*
 KinectToUnity/Assets/Zigfu
