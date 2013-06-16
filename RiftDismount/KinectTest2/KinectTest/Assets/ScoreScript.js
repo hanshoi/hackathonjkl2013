@@ -14,7 +14,7 @@ function Update () {
 	if (slowdown_timer > 0) {
 		slowdown_timer -= 1;
 		//Time.timeScale = 0.1;
-		target_time = 0.1;
+		target_time = 1.0;
 	}
 	else {
 		//Time.timeScale = 1.0;

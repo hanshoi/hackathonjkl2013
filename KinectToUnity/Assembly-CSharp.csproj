@@ -37,10 +37,10 @@
     <Reference Include="System.XML" />
 	<Reference Include="System.Core" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -70,7 +70,6 @@
      <Compile Include="Assets\OVR\Scripts\OVRPlayerController.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRPresetManager.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRUtils.cs" />
-     <Compile Include="Assets\Tuscany\Water (Basic)\Sources\Scripts\WaterSimple.cs" />
      <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\ExitOnEscape.cs" />
      <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\HSBColor.cs" />
      <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\MenuController.cs" />
@@ -99,23 +98,10 @@
      <Compile Include="Assets\ZigFu\Scripts\_Internal\Matrix3.cs" />
      <Compile Include="Assets\ZigFu\Scripts\_Internal\TimedBuffer.cs" />
      <Compile Include="Assets\ZigFu\Scripts\_Internal\kinectSpecific.cs" />
-     <None Include="Assets\Tuscany\Models\Materials\Vertex color unlit 3.shader" />
-     <None Include="Assets\Tuscany\Models\Materials\Vertex color unlit 1.shader" />
-     <None Include="Assets\Tuscany\Particles\Shaders\Particle Alpha Blend_IgnoreFog.shader" />
-     <None Include="Assets\Tuscany\Models\Materials\Vertex color unlit 5.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
-     <None Include="Assets\Tuscany\Models\Materials\Vertex color unlit 6.shader" />
-     <None Include="Assets\Tuscany\Models\Materials\DoubleSided.shader" />
-     <None Include="Assets\Tuscany\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
      <None Include="Assets\OVR\OVRImageEffects\OVRLensCorrection_CA.shader" />
-     <None Include="Assets\Tuscany\Models\Materials\Vertex color unlit 4.shader" />
-     <None Include="Assets\Tuscany\Particles\Shaders\AddSmooth_Layer.shader" />
-     <None Include="Assets\Tuscany\Models\Materials\Vertex color unlit 8.shader" />
      <None Include="Assets\OVR\OVRImageEffects\OVRLensCorrection.shader" />
      <None Include="Assets\OVR\Shaders\OVRGUIShader.shader" />
-     <None Include="Assets\Tuscany\Models\Materials\Vertex color unlit 2.shader" />
-     <None Include="Assets\Tuscany\Models\Materials\Vertex color unlit 7.shader" />
-     <None Include="Assets\Tuscany\Particles\Shaders\Add_Layer.shader" />
  <Reference Include="OpenNI.Net">
  <HintPath>Assets\ZigFu\Scripts\_Internal\OpenNI.Net.dll</HintPath>
  </Reference>
