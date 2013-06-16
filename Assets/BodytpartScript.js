@@ -16,7 +16,7 @@ function Update () {
 function OnCollisionEnter(collision : Collision) {
 	//Debug.Log(collision.impactForceSum);
 	
-	if (collision.gameObject.tag == "Hit") {
+	if (collision.gameObject.tag == "Hit" || collision.gameObject.tag == "Item") {
 		chest.rigidbody.isKinematic = false;
 	}
 	
@@ -33,6 +33,11 @@ function OnCollisionEnter(collision : Collision) {
 		
 		if (magnitude > 8.0) {
 			scorescript.slowdown_timer = 60;
+		}
+		
+		if (collision.gameObject.tag == "Item") {
+			collision.gameObject.transform.parent = gameObject.transform;
+			//collision.gameObject.rigidbody.isKinematic = true;
 		}
 	}
 }
